@@ -27,6 +27,7 @@ Class Example implements ConnectivityListener {
     else
       System.out.println("we do not have a connection");
   }
-}```
+}
+```
 
 If the ConnectivityListener makes changes to an activity's UI, keep in mind that you should use Activity.runOnUiThread(Runnable) and execute your UI changes inside the runnable.
